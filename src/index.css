@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Styles */
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+/* Styles for Ingredients and Steps */
+.recipe-ingredient {
+  border-left: 4px solid #f6ad55;
+  padding-left: 1rem;
+}
+
+.recipe-step {
+  background-color: #edf2f7;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .recipe-ingredient {
+    padding-left: 2rem;
+  }
+
+  .recipe-step {
+    padding: 2rem;
+  }
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+.ordered-list {
+  margin-left: 20px;
+}
+
