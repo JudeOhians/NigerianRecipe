@@ -1,6 +1,7 @@
+import whitesoup from "./assets/whitesoup.jpg"
 // recipeData.js
 const recipeData = {
-  image: "../whitesoup.jpg",
+  image: whitesoup,
   notes: "Ofe Nsala, often referred to as white soup, is a traditional soup from the Igbo people in Nigeria. It is characterized by its light color and rich flavor. Despite the name white soup, it's not entirely white but gets its name due to its light appearance compared to other Nigerian soups.",
   soupbase1: "1 cup yam slices (or yam powder) - for thickening",
   soupbase2: "1 cup cocoyam slices (alternative thickening agent",
