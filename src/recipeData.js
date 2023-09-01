@@ -1,4 +1,4 @@
-import whitesoup from "./assets/whitesoup.jpg"
+import whitesoup from "../public/whitesoup.jpg"
 // recipeData.js
 const recipeData = {
   image: whitesoup,
