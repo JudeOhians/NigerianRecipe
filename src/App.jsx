@@ -1,7 +1,7 @@
-import './App.css'
+import "./App.css";
 import React from "react";
-import Recipe from "./Recipe"; 
-import recipeData from "./recipeData"; 
+import Recipe from "./Recipe";
+import recipeData from "./recipeData";
 
 const App = () => {
   return (

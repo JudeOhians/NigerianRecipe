@@ -4,15 +4,22 @@ const Recipe = ({ data }) => {
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col">
       <section className="flex-grow flex flex-col">
-        <div className="h-96 bg-cover bg-center" style={{ backgroundImage: `url(${data.image})` }}></div>
-        
+        <div
+          className="h-96 bg-cover bg-center"
+          style={{ backgroundImage: `url(${data.image})` }}
+        ></div>
+
         <div className="bg-white p-8 shadow-md mt-4">
-          <h2 className="text-3xl font-semibold mb-4">The Nigerian White Soup (Ofe-Nsala)</h2>
+          <h2 className="text-3xl font-semibold mb-4">
+            The Nigerian White Soup (Ofe-Nsala)
+          </h2>
           <p className="text-gray-700 left-aligned">{data.notes}</p>
         </div>
 
         <div className="bg-white p-8 shadow-md mt-4">
-          <h2 className="text-3xl font-semibold mb-4">Preparation Ingredients</h2>
+          <h2 className="text-3xl font-semibold mb-4">
+            Preparation Ingredients
+          </h2>
           <div className="flex">
             <div className="w-2/3 flex flex-col">
               <h4 className="left-aligned bold-text">For the Soupbase:</h4>
@@ -27,17 +34,17 @@ const Recipe = ({ data }) => {
             </div>
             <div className="w-2/3 flex flex-col">
               <div className="w-full bg-white p-4 mb-2 shadow-md">
-              <h4 className="bold-text left-aligned">For the Meat</h4>
-              <p className="text-gray-700 left-aligned">{data.meat1}</p>
-              <p className="text-gray-700 left-aligned">{data.meat2}</p>
-              <p className="text-gray-700 left-aligned">{data.meat3}</p>
-              <p className="text-gray-700 left-aligned">{data.meat4}</p>
+                <h4 className="bold-text left-aligned">For the Meat</h4>
+                <p className="text-gray-700 left-aligned">{data.meat1}</p>
+                <p className="text-gray-700 left-aligned">{data.meat2}</p>
+                <p className="text-gray-700 left-aligned">{data.meat3}</p>
+                <p className="text-gray-700 left-aligned">{data.meat4}</p>
               </div>
               <div className="w-full bg-white p-4 shadow-md">
-              <h6 className="bold-text left-aligned">For Ganish:</h6>
-              <p className="text-gray-700 left-aligned">{data.g1}</p>
-              <p className="text-gray-700 left-aligned">{data.g2}</p>
-              <p className="text-gray-700 left-aligned">{data.g3}</p>
+                <h6 className="bold-text left-aligned">For Ganish:</h6>
+                <p className="text-gray-700 left-aligned">{data.g1}</p>
+                <p className="text-gray-700 left-aligned">{data.g2}</p>
+                <p className="text-gray-700 left-aligned">{data.g3}</p>
               </div>
             </div>
           </div>
